@@ -11,8 +11,6 @@ src/
 ├── hash_table.c   # Implementation of the hash table
 ├── hash_table.h   # Header file for hash table
 ├── main.c         # Entry point
-├── prime.c        # Implementation of prime functions
-├── prime.h        # Header file for prime functions
 ```
 
 ## Build & Run
