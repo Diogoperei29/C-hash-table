@@ -8,6 +8,7 @@
 /* TYPES */
 
 
+
 typedef struct {
     char* key;
     char* value;
@@ -27,6 +28,7 @@ typedef struct {
 
 // Creates a new hash table with the specified capacity
 // Returns a pointer to the newly created hash table, or NULL on failure
+// The table resizes automatically when load factor is too high or too low
 ht_hash_table* ht_new(size_t capacity);
 
 // Deletes a key-value pair
